@@ -1,0 +1,1 @@
+nslookup 10.2.1.4 | grep Server | cut -c 10-50

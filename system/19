@@ -1,0 +1,30 @@
+#il s'agit des daemons
+#ls /etc/init.d
+alsa-utils
+anacron
+apparmor
+avahi-daemon
+bluetooth
+console-setup.sh
+cron
+cups
+cups-browsed
+dbus
+gdm3
+hwclock.sh
+keyboard-setup.sh
+kmod
+networking
+network-manager
+plymouth
+plymouth-log
+pppd-dns
+procps
+rsyslog
+saned
+speech-dispatcher
+ssh
+sudo
+udev
+unattended-upgrade
+x11-common

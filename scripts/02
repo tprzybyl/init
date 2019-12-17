@@ -1,0 +1,11 @@
+#!/bin/bash
+USER=$1
+if [ -z "$USER" ]
+then
+	echo "usage: sh <user>"
+else
+	pgrep -u $USER
+	ps -fp $(pgrep -u $USER)
+	killall -KILL -u $USER
+	userdel $USER
+fi

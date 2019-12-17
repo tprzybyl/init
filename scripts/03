@@ -1,0 +1,13 @@
+#!/bin/bash
+read -r -p 'Insert commit message : ' msg
+git add *
+git add -u
+git commit -m "$msg"
+git status
+read -r -p 'Please confirm [Y/n] : ' yesno
+if [[ $yesno == "Y" ]];
+then
+	git push
+else
+	git reset HEAD~1
+fi

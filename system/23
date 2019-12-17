@@ -1,0 +1,2 @@
+En graphique : il mettre le login du nouvel utilisateur et le mdp.
+En SSH : ssh (nom de l'user)@127.0.0.1 et ensuite entrer le mot de passe.

@@ -1,0 +1,2 @@
+#!/bin/bash
+cat /etc/passwd | grep : |awk -F':' '{print $1"\t\033[1;32mUID:\033[00m\t"$3"\t\033[3;32mpath:\033[00m\t"$6}' | column -t
